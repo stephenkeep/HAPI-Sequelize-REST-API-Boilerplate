@@ -43,4 +43,4 @@ More details about the frameworks:
 
 #TODO
 
-add [Agilo](https://github.com/danielgtaylor/aglio) to read in the blueprint
+add [Agilo](https://github.com/danielgtaylor/aglio) to read in the blueprint and display a pretty website
