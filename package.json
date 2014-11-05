@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jasmine-node tests/ --watch --autotest",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "hapi": "^7.2.0",
     "require-directory": "^2.0.0",
     "sequelize": "^2.0.0-dev13"
+  },
+  "devDependencies": {
+    "frisby": "^0.8.3"
   }
 }

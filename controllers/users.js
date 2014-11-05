@@ -8,7 +8,7 @@ var Users = {
     get: {
         handler: function (request, reply) {
             
-          reply({id: request.params.id});
+          reply({id: parseInt(request.params.id)});
         }
     }
 };
