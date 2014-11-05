@@ -26,7 +26,7 @@ Run the Tests using:
     
 Run the Production server using:
 
-    npm server
+    npm start
     
 To check the API documentation is correct this boilerplate uses the API Blueprint structure and dredd, run this from cli:
 
