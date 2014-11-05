@@ -27,9 +27,15 @@ Run the Tests using:
 Run the Production server using:
 
     npm server
+    
+To check the API documentation is correct this boilerplate uses the API Blueprint structure and dredd, run this from cli:
 
+    dredd doc/blueprint.md http://localhost:3000
+    
 More details about the frameworks:
 
 - [HAPI.JS](http://hapijs.com)
 - [Sequelizejs.JS](http://sequelizejs.com)
-
+- [API blueprint](http://apiary.io/blueprint)
+- [Dredd](https://github.com/apiaryio/dredd)
+- [Frisbyjs](http://frisbyjs.com/)
