@@ -2,7 +2,7 @@ var Hapi = require('hapi'),
     settings = require('./config/settings');
     //models = require('./models/models');
 
-var server = new Hapi.Server('0.0.0.0', settings.port);
+var server = new Hapi.Server('0.0.0.0', settings.port, { cors: true });
 
 // Add the server routes
 server.route(require('./config/routes'));
