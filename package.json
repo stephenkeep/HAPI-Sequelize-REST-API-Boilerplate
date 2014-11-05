@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jasmine-node tests/ --watch --autotest",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
