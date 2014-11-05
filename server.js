@@ -1,6 +1,6 @@
 var Hapi = require('hapi'),
-    settings = require('./config/settings');
-    //models = require('./models/models');
+    settings = require('./config/settings'),
+    models = require('./models/models');
 
 var server = new Hapi.Server('localhost', settings.port);
 
