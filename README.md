@@ -1,7 +1,7 @@
 HAPI Sequelize REST API Boilerplate
 ===================================
 
-A simple bolierplate to get started quickly when creating a RESTful API using HAPI and Sequelize. First:
+A simple bolierplate to get up and running quickly when creating a REST API using HAPI and Sequelize. First:
 
     npm install
     
